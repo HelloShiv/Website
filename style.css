@@ -1,0 +1,124 @@
+header{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-right: 5%;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr 2fr 2fr;
+}
+.heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.heading span{
+    font-weight: normal;
+}
+
+header div{
+    padding: 10px;
+    display:flex;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: end;
+}
+
+body{
+    background-color: #2D2F33;
+}
+
+.box{
+    background-color: #76F0A8;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: span 2;
+}
+.outerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 130px;
+    width: 150px;
+    margin-top: 50px ;
+    /* background-color: red; */
+}
+
+.hero{
+    padding-left: 4.6%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 3fr  3fr ;
+    grid-template-rows: 2fr 2fr 1fr 3fr;
+}
+.min-heading{
+    font-size: 4rem;
+    color:whitesmoke;
+    
+}
+.min-heading{
+    grid-row-start: 2;
+}
+.min-heading p {
+    font-size: 2rem;
+}
+.experience{
+    display: flex;
+    font-size: 6rem;
+    grid-row-start: 4;
+    color:white;
+}
+.year{
+    padding: 5px;
+}
+
+.experience .desc{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lord-shiva{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:-1;
+    justify-content: end;
+    align-items: end;
+    /* background-color: red; */
+    margin-bottom: 0 ;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+.lord-shiva img{
+    height: 855px;
+    
+}
+/* .circle{
+    background-color: blueviolet;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    z-index: -1;
+    
+    grid-column-start: 2;
+    grid-row-start: 2;
+} */
+
+
+html{
+    overflow-x: hidden;
+}
